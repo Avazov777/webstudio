@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+# robots.txt for https://vercel.live/link/webstudio-theta.vercel.app?via=project-dashboard-alias-list&p=1
+
+# Delay for all crawlers to prevent server overload
+Crawl-delay: 10
+
+# Specific bot rules (example: Googlebot)
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+# Sitemap location
+Sitemap: https://vercel.live/link/webstudio-theta.vercel.app?via=project-dashboard-alias-list&p=1/sitemap.xml
